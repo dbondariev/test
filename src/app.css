@@ -1,0 +1,288 @@
+body {
+  margin-top: 15px;
+  background: url(img/book-computer-background-6.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+}
+
+.menu {
+  margin-bottom: 20px;
+}
+
+.popup {
+  max-width: 300px !important;
+}
+
+.card-image {
+  height: 200px;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 1px solid rgb(187, 143, 0);
+  border-radius: 5px;
+  background-color: rgb(235, 180, 1);
+}
+
+.ui.secondary.menu .item {
+  color: aliceblue;
+}
+
+.ui.secondary.menu .active.item {
+  border: 1px solid rgb(187, 143, 0);
+  background-color: rgb(235, 180, 1);
+}
+
+.ui.secondary.menu .active.item:hover {
+  background-color: rgb(235, 180, 1);
+}
+
+.ui.button {
+  /* background-color: rgb(235, 180, 1); */
+  background: rgb(235, 180, 1);
+  border: 1px solid rgb(187, 143, 0);
+}
+
+.ui.button:hover {
+  background-color: rgb(187, 143, 0);
+}
+
+.ui.four.cards .card {
+  border: 1px solid rgb(187, 143, 0);
+}
+
+.ui.menu:first-child {
+  border: 1px solid rgb(187, 143, 0);
+  background-color: rgb(235, 180, 1);
+}
+
+img.ui {
+  display: inline-block;
+  overflow: hidden;
+}
+
+img.ui.image {
+  transition: 1s;
+  display: block;
+}
+
+img.ui.image:hover {
+  transform: scale(1.2);
+}
+
+.ui.card > .content,
+.ui.cards > .card > .content {
+  border-top: 2px solid rgb(235, 180, 1);
+}
+
+.ui.divided.selection.list .list > .item,
+.ui.divided.selection.list > .item {
+  display: flex;
+}
+
+.ui.modal {
+    width: auto;
+    max-width: 700px;
+    margin: 0;
+}
+
+.ui.modal>.image.content {
+  display: block;
+}
+
+.visible.transition {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.ui.yellow.button, .ui.yellow.buttons .button{
+  color: rgb(37, 37, 37);
+}
+
+.ui.blue.button {
+  border-left: 1px solid rgb(187, 143, 0);
+  border-right: 1px solid rgb(187, 143, 0);
+  border-top: 1px solid rgb(187, 143, 0);
+  
+}
+
+.ui.blue.button:hover {
+  color: rgb(29, 29, 29);
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    margin-top: 15px;
+    background: url(https://img1.akspic.ru/image/135499-sinij-illustracia-kraska-zhivopis-sinij_cvet-3840x2160.jpg)
+      no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .menu {
+    margin-bottom: 20px;
+  }
+
+  .ui.menu:first-child,
+  .ui.secondary.menu {
+    font-size: 8pt;
+  }
+
+  .ui.menu:not(.vertical) .item>.input {
+    width: 70%;
+  }
+  
+  .popup {
+    max-width: 300px !important;
+  }
+
+  .ui.four.cards .card {
+    height: 200px;
+    width: 130px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .ui.card > .content, .ui.cards > .card > .content {
+    font-size: 6pt;
+    margin-bottom: 5px;
+  }
+  
+  .card-image {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(187, 143, 0);
+    border-radius: 5px;
+    background-color: rgb(235, 180, 1);
+  }
+
+  h2, h3 {
+    font-size: 10pt;
+  }
+  
+  .ui.secondary.menu .item {
+    color: aliceblue;
+  }
+  
+  .ui.secondary.menu .active.item {
+    border: 1px solid rgb(187, 143, 0);
+    background-color: rgb(235, 180, 1);
+  }
+  
+  .ui.secondary.menu .active.item:hover {
+    background-color: rgb(235, 180, 1);
+  }
+  
+  .ui.button {
+    /* background-color: rgb(235, 180, 1); */
+    background: rgb(235, 180, 1);
+    border: 1px solid rgb(187, 143, 0);
+    font-size: 6pt;
+  }
+  
+  .ui.yellow.button, .ui.yellow.buttons .button {
+    float: left;
+  }
+
+  .ui.button:hover {
+    background-color: rgb(187, 143, 0);
+  }
+  
+  .ui.four.cards .card {
+    border: 1px solid rgb(187, 143, 0);
+  }
+  
+  .ui.menu:first-child {
+    border: 1px solid rgb(187, 143, 0);
+    background-color: rgb(235, 180, 1);
+  }
+  
+  img.ui {
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  img.ui.image {
+    transition: 1s;
+    display: block;
+  }
+  
+  img.ui.image:hover {
+    transform: scale(1.2);
+  }
+  
+  .ui.card > .content,
+  .ui.cards > .card > .content {
+    border-top: 2px solid rgb(235, 180, 1);
+  }
+  
+  .ui.divided.selection.list .list > .item,
+  .ui.divided.selection.list > .item {
+    display: flex;
+  }
+  
+  .ui.modal {
+      width: 450px;
+      max-width: 450px;
+      display: flex;
+      font-size: 10pt;
+  }
+
+  .ui.active.modal {
+    height: auto;
+    width: auto;
+  }
+
+  .ui.image img, .ui.image svg {
+    width: 30%;
+    height: 100%;
+    margin: auto;
+  }
+  
+  .visible.transition {
+    display: flex !important;
+    flex-direction: column;
+  }
+  
+  .ui.yellow.button, .ui.yellow.buttons .button{
+    color: rgb(37, 37, 37);
+  }
+  
+  .ui.blue.button {
+    border-left: 1px solid rgb(187, 143, 0);
+    border-right: 1px solid rgb(187, 143, 0);
+    border-top: 1px solid rgb(187, 143, 0);
+    
+  }
+  
+  .ui.blue.button:hover {
+    color: rgb(29, 29, 29);
+  }
+}
